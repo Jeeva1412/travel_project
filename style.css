@@ -116,18 +116,22 @@
   color: white;
 }
 
-@media(max-width:776px){
+@media(max-width:576px){
   .home{
     background-position: 50%;
+    height: 70vh;
 
   }
+  .home .content{
+    padding: 100px;
+  }
 }
-@media (max-width:576px){
+@media (max-width:776px){
   .home .content h5{
-    font-size: 25px;
+    font-size: 20px;
   }
   .home .content h1{
-    font-size:38px;
+    font-size:36px;
   }
   .home .content p{
     font-size: 12px;
